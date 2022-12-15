@@ -1,0 +1,166 @@
+!################################ SCRIPT DE EXEMPLO PARA O CODIGO #########################
+! DATA DE CRIAÇÃO  7/1/2015
+! o caractere para comentários é !
+! Este script é "case insensitive" , e ignora espaços (verticais e horizontais)
+! o caractere para determinar atribuições é o =
+!aceita o comando pause e disp para poder debugar
+!exemplo: 
+!disp=mostrar este texto
+!pause 
+! ########################################################################################
+
+			
+!XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+ANALYSIS SETTINGS
+
+	Multiscale Analysis =  False 
+	Multiscale Model = Linear !MinimalLinearD1 !Linear !Taylor !Minimal 
+	Multiscale Model Fiber Axial Direction = X !Z Y	
+	Problem Type = Biphasic !Mechanical
+	Osmotic Pressure Analysis = True 
+	Solution Scheme = Monolithic
+	Multiscale Model Fluid = Linear !Linear !Taylor
+	Fiber Reinforced Analysis = False !True!False
+	Fiber Data File = Fiber_Data.dat
+	Analysis Type = Quasi Static
+	Nonlinear Analysis = True !False !
+	Hypothesis of Analysis = 3D ! Axisymmetric ! Plane Strain !  
+	Element Technology = Full Integration !Mean Dilatation ! Reduced Integration
+	Maximum Cut Backs = 100
+	Multiscale Epsilon Parameter  = 1.0d-14
+	
+END ANALYSIS SETTINGS
+
+!XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+LINEAR SOLVER
+
+	PARDISO
+	
+END LINEAR SOLVER
+
+!XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+NONLINEAR SOLVER
+
+	Newton_Raphson_Full
+	
+	Tol_Force_Mechanical = 1e-10
+	Tol_Flux_Biphasic = 1e-10
+	MaxIter = 5000
+
+
+END NONLINEAR SOLVER
+
+LINE SEARCH ALGORITHM
+	
+	Active = False
+	Line_Search_Parameter = 0.9
+
+END LINE SEARCH ALGORITHM
+
+!XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+STAGGERED SPLITTING SCHEME
+
+	Splitting Scheme 	 = Fixed Stress !Fixed Stress !Fixed Strain! Undrained! Fixed Stress !Drained
+	Stability Constant 	 = 0.500 ! Depende do modelo ! 1.0d4 rodou o k = 0.76e-3
+	Mechanical Staggered Tolerance    = 1.0d-3
+	Flux Staggered Tolerance 		  = 1.0d-3 ! com 1.0d-1 rodou, mas o resultado nao deu boa
+	
+END STAGGERED SPLITTING SCHEME
+
+!XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+MATERIAL
+	
+	Number of Materials = 1
+	
+	Material ID = 1
+	compressible_neo_hookean  !Nome do Modelo
+	Mu =  0.714285714285714 !0.357142857142857 !0.2174
+	Lambda = 2.85714285714286 !1.42857142857143 !0.093168
+
+	 	
+END MATERIAL 
+
+PERMEABILITY
+
+	Number of Materials = 1
+
+	 Material ID = 1
+	 Spatial_Isotropic_Constant_Permeability
+	 k = 1e-3
+	 
+	 
+END PERMEABILITY
+	
+	
+OSMOTIC PRESSURE
+	
+	Number of Materials = 1
+	
+	Material ID = 1
+	Ideal_Donnan_Osmotic_Pressure !Fixed_Osmotic_Pressure !
+	phi_i = 1!1.0 !0.83
+	phi_e = 1 !1.0  !0.83 !0.924
+	c_e = 1.0 !200.0 !1.5e-4 !7.5e-5 !1.5e-4 !1.5e-4 
+	c_F0 =  1.0 !200.0
+	n0 = 0.8 
+	Temp = 310.0
+	gas constant R = 8.3145e-6 ![m*J/n*mol*K]
+	CF0 Curve time = Time_Discretization.dat
+	CF0 Load Curve = CF0_curve.dat
+	Cext Curve time = Time_Discretization.dat
+	Cext Load Curve = Cext_curve.dat
+	
+END OSMOTIC PRESSURE
+	
+	
+	
+
+!XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+MESH AND BOUNDARY CONDITIONS
+
+	Mesh File = OsmoticCube3DV2.cdb !OsmoticCube3D.cdb !OsmoticCube1D.cdb !OsmoticCubeV3.cdb !ModeloWilson.cdb !BFCubeOsmComp.cdb ! !BFCubeV2.cdb ! !OsmoticCube.cdb ! !BFCube.cdb !Cube_1000elem.cdb !simplecube.cdb !OsmoticCubeCEOS.cdb !ModWilsonV2.cdb !BiphasicCube.cdb  !unconfined_3d_quarter_d2xh2_5000.cdb !unconfined_3d_quarter_d2xh2_ref2_10000.cdb !confined_3d_mesh_quarter_d2xh2_ref1.cdb !Quarto_cilindro_Hexa_Confi_refino.cdb ! Quarto_cilindro_Hexa_menor_d_confi.cdb !quarto_cilindro_cartilagem_u20p8_grosseiro.cdb ! Quarto_cilindro_Hexa_SemiConfi_grosseiro.cdb !Quarto_cilindro_Hexa_SemiConfi.cdb !Quarto_cilindro_Hexa_Confi.cdb   !quarto_cilindro_cartilagem_u20p8_grosseiro.cdb !!Quarto_Cilindro_Cartilagem_tetra.cdb!
+	Preprocessor = HyperMesh 
+	Time Discretization File = Time_Discretization.dat
+		
+END MESH AND BOUNDARY CONDITIONS
+
+!XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+MACROSCOPIC DISPLACEMENT AND DEFORMATION GRADIENT
+
+	U1  = U1.dat !Zero 
+	U2  = U2.dat !Zero 
+	U3  = U3.dat !Zero 
+	F11 = F11.dat !One !
+	F12 = Zero !F12.dat !  
+	F13 = Zero 
+	F21 = Zero
+	F22 = F22.dat  !One !
+	F23 = Zero
+	F31 = Zero
+	F32 = Zero
+	F33 = F33.dat !One !One	
+		
+END MACROSCOPIC DISPLACEMENT AND DEFORMATION GRADIENT
+
+!XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+!XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+MACROSCOPIC PRESSURE AND GRADIENT
+
+	P = P.dat 
+	GradP1 = GradP1.dat
+	GradP2 = GradP2.dat
+	GradP3 = GradP3.dat	
+	
+		
+END MACROSCOPIC PRESSURE AND GRADIENT
+
+!XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX

@@ -1,0 +1,1216 @@
+ ---------------------------------------------------------
+                          CEOS
+ ---------------------------------------------------------
+
+ Settings File Name: Settings.dat
+
+ Problem will be solved
+
+ Problem will be postprocessed
+ PostProcessing File Name: post_processing.post
+
+ Opening Input File:Settings.dat
+ Reading Input File:Settings.dat
+
+ Input File Closed
+
+
+ Number of Elements:     3840
+ Number of Nodes:    17685
+ ---------------------------------------------------------
+ SOLVING
+ ---------------------------------------------------------
+Load Case:   1
+
+    Step:   1 (LC:   1)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.974948833E-02       NORM_Fluid:  0.000000000E+00
+            IT:   1  NORM_Solid:  0.939745760E-02       NORM_Fluid:  0.544182661E-05
+            IT:   2  NORM_Solid:  0.648370073E-02       NORM_Fluid:  0.696032625E-03
+            IT:   3  NORM_Solid:  0.463405450E-02       NORM_Fluid:  0.102007473E-03
+            IT:   4  NORM_Solid:  0.320638067E-02       NORM_Fluid:  0.230062422E-03
+            IT:   5  NORM_Solid:  0.224915616E-02       NORM_Fluid:  0.811199726E-04
+            IT:   6  NORM_Solid:  0.155236310E-02       NORM_Fluid:  0.881240756E-04
+            IT:   7  NORM_Solid:  0.107698387E-02       NORM_Fluid:  0.440240478E-04
+            IT:   8  NORM_Solid:  0.741261577E-03       NORM_Fluid:  0.368717661E-04
+            IT:   9  NORM_Solid:  0.511053504E-03       NORM_Fluid:  0.216502031E-04
+            IT:  10  NORM_Solid:  0.350890299E-03       NORM_Fluid:  0.162001070E-04
+            IT:  11  NORM_Solid:  0.241000270E-03       NORM_Fluid:  0.102743012E-04
+            IT:  12  NORM_Solid:  0.165153252E-03       NORM_Fluid:  0.730475251E-05
+            IT:  13  NORM_Solid:  0.113158686E-03       NORM_Fluid:  0.480737730E-05
+            IT:  14  NORM_Solid:  0.774335016E-04       NORM_Fluid:  0.333889273E-05
+            IT:  15  NORM_Solid:  0.529718496E-04       NORM_Fluid:  0.223692220E-05
+            IT:  16  NORM_Solid:  0.362097510E-04       NORM_Fluid:  0.153718397E-05
+            IT:  17  NORM_Solid:  0.247447603E-04       NORM_Fluid:  0.103880059E-05
+            IT:  18  NORM_Solid:  0.169017343E-04       NORM_Fluid:  0.710462240E-06
+            IT:  19  NORM_Solid:  0.115418895E-04       NORM_Fluid:  0.482159641E-06
+            IT:  20  NORM_Solid:  0.787929310E-05       NORM_Fluid:  0.329080191E-06
+            IT:  21  NORM_Solid:  0.537796711E-05       NORM_Fluid:  0.223805922E-06
+            IT:  22  NORM_Solid:  0.366994422E-05       NORM_Fluid:  0.152620001E-06
+            IT:  23  NORM_Solid:  0.250404095E-05       NORM_Fluid:  0.103908624E-06
+            IT:  24  NORM_Solid:  0.170829535E-05       NORM_Fluid:  0.708357674E-07
+            IT:  25  NORM_Solid:  0.116530902E-05       NORM_Fluid:  0.482548362E-07
+            IT:  26  NORM_Solid:  0.794836713E-06       NORM_Fluid:  0.328928347E-07
+            Converged in  26 iterations
+    End Step:   1
+
+    Step:   2 (LC:   1)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.794836713E-06       NORM_Fluid:  0.129483052E-03
+            IT:   1  NORM_Solid:  0.147823212E-04       NORM_Fluid:  0.270738933E-07
+            IT:   2  NORM_Solid:  0.759227011E-06       NORM_Fluid:  0.120862161E-08
+            Converged in   2 iterations
+    End Step:   2
+
+    Step:   3 (LC:   1)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.759227011E-06       NORM_Fluid:  0.128900573E-03
+            IT:   1  NORM_Solid:  0.145682005E-04       NORM_Fluid:  0.270914282E-07
+            IT:   2  NORM_Solid:  0.780903692E-06       NORM_Fluid:  0.136678316E-08
+            Converged in   2 iterations
+    End Step:   3
+
+    Step:   4 (LC:   1)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.780903692E-06       NORM_Fluid:  0.128322060E-03
+            IT:   1  NORM_Solid:  0.144393703E-04       NORM_Fluid:  0.269549059E-07
+            IT:   2  NORM_Solid:  0.796546480E-06       NORM_Fluid:  0.142296729E-08
+            Converged in   2 iterations
+    End Step:   4
+
+    Step:   5 (LC:   1)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.796546480E-06       NORM_Fluid:  0.127746928E-03
+            IT:   1  NORM_Solid:  0.143393831E-04       NORM_Fluid:  0.267606677E-07
+            IT:   2  NORM_Solid:  0.803224242E-06       NORM_Fluid:  0.143951878E-08
+            Converged in   2 iterations
+    End Step:   5
+
+    Step:   6 (LC:   1)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.803224242E-06       NORM_Fluid:  0.127175157E-03
+            IT:   1  NORM_Solid:  0.142494851E-04       NORM_Fluid:  0.265449387E-07
+            IT:   2  NORM_Solid:  0.803744000E-06       NORM_Fluid:  0.144013798E-08
+            Converged in   2 iterations
+    End Step:   6
+
+    Step:   7 (LC:   1)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.803744000E-06       NORM_Fluid:  0.126606726E-03
+            IT:   1  NORM_Solid:  0.141633868E-04       NORM_Fluid:  0.263217610E-07
+            IT:   2  NORM_Solid:  0.800770413E-06       NORM_Fluid:  0.143419221E-08
+            Converged in   2 iterations
+    End Step:   7
+
+    Step:   8 (LC:   1)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.800770413E-06       NORM_Fluid:  0.126041612E-03
+            IT:   1  NORM_Solid:  0.140789516E-04       NORM_Fluid:  0.260967434E-07
+            IT:   2  NORM_Solid:  0.795986695E-06       NORM_Fluid:  0.142550630E-08
+            Converged in   2 iterations
+    End Step:   8
+
+    Step:   9 (LC:   1)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.795986695E-06       NORM_Fluid:  0.125479792E-03
+            IT:   1  NORM_Solid:  0.139954406E-04       NORM_Fluid:  0.258721854E-07
+            IT:   2  NORM_Solid:  0.790321015E-06       NORM_Fluid:  0.141568629E-08
+            Converged in   2 iterations
+    End Step:   9
+
+    Step:  10 (LC:   1)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.790321015E-06       NORM_Fluid:  0.124921246E-03
+            IT:   1  NORM_Solid:  0.139125916E-04       NORM_Fluid:  0.256490473E-07
+            IT:   2  NORM_Solid:  0.784252714E-06       NORM_Fluid:  0.140542241E-08
+            Converged in   2 iterations
+    End Step:  10
+
+End Load Case:   1
+
+
+Load Case:   2
+
+    Step:   1 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.784252714E-06       NORM_Fluid:  0.124365950E-03
+            IT:   1  NORM_Solid:  0.152112596E-02       NORM_Fluid:  0.271251559E-05
+            IT:   2  NORM_Solid:  0.376323245E-03       NORM_Fluid:  0.185471272E-06
+            IT:   3  NORM_Solid:  0.764577929E-04       NORM_Fluid:  0.108332155E-06
+            IT:   4  NORM_Solid:  0.308562693E-04       NORM_Fluid:  0.614773703E-07
+            IT:   5  NORM_Solid:  0.271365021E-04       NORM_Fluid:  0.389793253E-07
+            IT:   6  NORM_Solid:  0.214624443E-04       NORM_Fluid:  0.256434128E-07
+            IT:   7  NORM_Solid:  0.158917198E-04       NORM_Fluid:  0.172513899E-07
+            IT:   8  NORM_Solid:  0.114897676E-04       NORM_Fluid:  0.116789515E-07
+            IT:   9  NORM_Solid:  0.822188801E-05       NORM_Fluid:  0.795949837E-08
+            IT:  10  NORM_Solid:  0.585059398E-05       NORM_Fluid:  0.543540830E-08
+            IT:  11  NORM_Solid:  0.414837962E-05       NORM_Fluid:  0.372422737E-08
+            IT:  12  NORM_Solid:  0.293355507E-05       NORM_Fluid:  0.255553257E-08
+            IT:  13  NORM_Solid:  0.207011671E-05       NORM_Fluid:  0.175749540E-08
+            IT:  14  NORM_Solid:  0.145823975E-05       NORM_Fluid:  0.121024210E-08
+            IT:  15  NORM_Solid:  0.102570423E-05       NORM_Fluid:  0.834745479E-09
+            IT:  16  NORM_Solid:  0.720552200E-06       NORM_Fluid:  0.576393158E-09
+            Converged in  16 iterations
+    End Step:   1
+
+    Step:   2 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.720552200E-06       NORM_Fluid:  0.705006744E-04
+            IT:   1  NORM_Solid:  0.739907232E-03       NORM_Fluid:  0.893401822E-06
+            IT:   2  NORM_Solid:  0.182378525E-03       NORM_Fluid:  0.858382489E-07
+            IT:   3  NORM_Solid:  0.382446086E-04       NORM_Fluid:  0.470436842E-07
+            IT:   4  NORM_Solid:  0.146240709E-04       NORM_Fluid:  0.264931926E-07
+            IT:   5  NORM_Solid:  0.897328745E-05       NORM_Fluid:  0.166016347E-07
+            IT:   6  NORM_Solid:  0.770140483E-05       NORM_Fluid:  0.108573290E-07
+            IT:   7  NORM_Solid:  0.597344375E-05       NORM_Fluid:  0.727090495E-08
+            IT:   8  NORM_Solid:  0.447327079E-05       NORM_Fluid:  0.490984771E-08
+            IT:   9  NORM_Solid:  0.329782217E-05       NORM_Fluid:  0.333782559E-08
+            IT:  10  NORM_Solid:  0.240984333E-05       NORM_Fluid:  0.227585200E-08
+            IT:  11  NORM_Solid:  0.175051654E-05       NORM_Fluid:  0.155720647E-08
+            IT:  12  NORM_Solid:  0.126582200E-05       NORM_Fluid:  0.106784524E-08
+            IT:  13  NORM_Solid:  0.911994759E-06       NORM_Fluid:  0.734165354E-09
+            Converged in  13 iterations
+    End Step:   2
+
+    Step:   3 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.911994759E-06       NORM_Fluid:  0.435017511E-04
+            IT:   1  NORM_Solid:  0.463912660E-03       NORM_Fluid:  0.296656995E-06
+            IT:   2  NORM_Solid:  0.887749923E-04       NORM_Fluid:  0.369538155E-07
+            IT:   3  NORM_Solid:  0.186574479E-04       NORM_Fluid:  0.212162418E-07
+            IT:   4  NORM_Solid:  0.776089580E-05       NORM_Fluid:  0.121446583E-07
+            IT:   5  NORM_Solid:  0.477123786E-05       NORM_Fluid:  0.761662869E-08
+            IT:   6  NORM_Solid:  0.308343928E-05       NORM_Fluid:  0.498526065E-08
+            IT:   7  NORM_Solid:  0.244053392E-05       NORM_Fluid:  0.333767859E-08
+            IT:   8  NORM_Solid:  0.187675405E-05       NORM_Fluid:  0.225440117E-08
+            IT:   9  NORM_Solid:  0.141423138E-05       NORM_Fluid:  0.153220160E-08
+            IT:  10  NORM_Solid:  0.105349454E-05       NORM_Fluid:  0.104466423E-08
+            IT:  11  NORM_Solid:  0.778655309E-06       NORM_Fluid:  0.714591203E-09
+            Converged in  11 iterations
+    End Step:   3
+
+    Step:   4 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.778655309E-06       NORM_Fluid:  0.290099413E-04
+            IT:   1  NORM_Solid:  0.308087484E-03       NORM_Fluid:  0.193170570E-06
+            IT:   2  NORM_Solid:  0.434541868E-04       NORM_Fluid:  0.149682819E-07
+            IT:   3  NORM_Solid:  0.892897081E-05       NORM_Fluid:  0.994095384E-08
+            IT:   4  NORM_Solid:  0.416432632E-05       NORM_Fluid:  0.588164026E-08
+            IT:   5  NORM_Solid:  0.261045210E-05       NORM_Fluid:  0.372615128E-08
+            IT:   6  NORM_Solid:  0.170575319E-05       NORM_Fluid:  0.245466745E-08
+            IT:   7  NORM_Solid:  0.119705300E-05       NORM_Fluid:  0.165044973E-08
+            IT:   8  NORM_Solid:  0.929742976E-06       NORM_Fluid:  0.111917453E-08
+            Converged in   8 iterations
+    End Step:   4
+
+    Step:   5 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.929742976E-06       NORM_Fluid:  0.206928369E-04
+            IT:   1  NORM_Solid:  0.216100657E-03       NORM_Fluid:  0.153720867E-06
+            IT:   2  NORM_Solid:  0.239776702E-04       NORM_Fluid:  0.104487153E-07
+            IT:   3  NORM_Solid:  0.399100204E-05       NORM_Fluid:  0.531318991E-08
+            IT:   4  NORM_Solid:  0.254345122E-05       NORM_Fluid:  0.332628803E-08
+            IT:   5  NORM_Solid:  0.164120369E-05       NORM_Fluid:  0.215702864E-08
+            IT:   6  NORM_Solid:  0.111503393E-05       NORM_Fluid:  0.144132664E-08
+            IT:   7  NORM_Solid:  0.879344167E-06       NORM_Fluid:  0.978882005E-09
+            Converged in   7 iterations
+    End Step:   5
+
+    Step:   6 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.879344167E-06       NORM_Fluid:  0.183944739E-04
+            IT:   1  NORM_Solid:  0.162002042E-03       NORM_Fluid:  0.118825422E-06
+            IT:   2  NORM_Solid:  0.159780033E-04       NORM_Fluid:  0.749633019E-08
+            IT:   3  NORM_Solid:  0.190845977E-05       NORM_Fluid:  0.226509430E-08
+            IT:   4  NORM_Solid:  0.121453268E-05       NORM_Fluid:  0.148050688E-08
+            IT:   5  NORM_Solid:  0.792066621E-06       NORM_Fluid:  0.966238571E-09
+            Converged in   5 iterations
+    End Step:   6
+
+    Step:   7 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.792066621E-06       NORM_Fluid:  0.167383231E-04
+            IT:   1  NORM_Solid:  0.125956609E-03       NORM_Fluid:  0.907916031E-07
+            IT:   2  NORM_Solid:  0.106620026E-04       NORM_Fluid:  0.539700380E-08
+            IT:   3  NORM_Solid:  0.111026143E-05       NORM_Fluid:  0.108497552E-08
+            IT:   4  NORM_Solid:  0.663084647E-06       NORM_Fluid:  0.765400302E-09
+            Converged in   4 iterations
+    End Step:   7
+
+    Step:   8 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.663084647E-06       NORM_Fluid:  0.151344809E-04
+            IT:   1  NORM_Solid:  0.100500003E-03       NORM_Fluid:  0.691066302E-07
+            IT:   2  NORM_Solid:  0.693705749E-05       NORM_Fluid:  0.383088527E-08
+            IT:   3  NORM_Solid:  0.864355070E-06       NORM_Fluid:  0.984961923E-09
+            Converged in   3 iterations
+    End Step:   8
+
+    Step:   9 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.864355070E-06       NORM_Fluid:  0.136743899E-04
+            IT:   1  NORM_Solid:  0.844137357E-04       NORM_Fluid:  0.529360320E-07
+            IT:   2  NORM_Solid:  0.582086344E-05       NORM_Fluid:  0.290733893E-08
+            IT:   3  NORM_Solid:  0.549410195E-06       NORM_Fluid:  0.371087037E-09
+            Converged in   3 iterations
+    End Step:   9
+
+    Step:  10 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.549410195E-06       NORM_Fluid:  0.123945193E-04
+            IT:   1  NORM_Solid:  0.753888457E-04       NORM_Fluid:  0.405216803E-07
+            IT:   2  NORM_Solid:  0.434028720E-05       NORM_Fluid:  0.211728619E-08
+            IT:   3  NORM_Solid:  0.384044240E-06       NORM_Fluid:  0.257012303E-09
+            Converged in   3 iterations
+    End Step:  10
+
+    Step:  11 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.384044240E-06       NORM_Fluid:  0.112762810E-04
+            IT:   1  NORM_Solid:  0.683543080E-04       NORM_Fluid:  0.311803657E-07
+            IT:   2  NORM_Solid:  0.339757181E-05       NORM_Fluid:  0.159523520E-08
+            IT:   3  NORM_Solid:  0.306743970E-06       NORM_Fluid:  0.205447628E-09
+            Converged in   3 iterations
+    End Step:  11
+
+    Step:  12 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.306743970E-06       NORM_Fluid:  0.103029169E-04
+            IT:   1  NORM_Solid:  0.620700695E-04       NORM_Fluid:  0.279365052E-07
+            IT:   2  NORM_Solid:  0.281816045E-05       NORM_Fluid:  0.119996333E-08
+            IT:   3  NORM_Solid:  0.235788974E-06       NORM_Fluid:  0.156798655E-09
+            Converged in   3 iterations
+    End Step:  12
+
+    Step:  13 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.235788974E-06       NORM_Fluid:  0.945437292E-05
+            IT:   1  NORM_Solid:  0.566940110E-04       NORM_Fluid:  0.253596715E-07
+            IT:   2  NORM_Solid:  0.245224025E-05       NORM_Fluid:  0.913457643E-09
+            IT:   3  NORM_Solid:  0.186855272E-06       NORM_Fluid:  0.123637021E-09
+            Converged in   3 iterations
+    End Step:  13
+
+    Step:  14 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.186855272E-06       NORM_Fluid:  0.871196383E-05
+            IT:   1  NORM_Solid:  0.519872281E-04       NORM_Fluid:  0.230205962E-07
+            IT:   2  NORM_Solid:  0.213107103E-05       NORM_Fluid:  0.771777374E-09
+            IT:   3  NORM_Solid:  0.147944794E-06       NORM_Fluid:  0.972772587E-10
+            Converged in   3 iterations
+    End Step:  14
+
+    Step:  15 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.147944794E-06       NORM_Fluid:  0.808808161E-05
+            IT:   1  NORM_Solid:  0.478847443E-04       NORM_Fluid:  0.209442672E-07
+            IT:   2  NORM_Solid:  0.185131821E-05       NORM_Fluid:  0.671177396E-09
+            IT:   3  NORM_Solid:  0.118497627E-06       NORM_Fluid:  0.774278537E-10
+            Converged in   3 iterations
+    End Step:  15
+
+    Step:  16 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.118497627E-06       NORM_Fluid:  0.785174934E-05
+            IT:   1  NORM_Solid:  0.442761147E-04       NORM_Fluid:  0.191012453E-07
+            IT:   2  NORM_Solid:  0.160926599E-05       NORM_Fluid:  0.584110379E-09
+            IT:   3  NORM_Solid:  0.960010210E-07       NORM_Fluid:  0.619363037E-10
+            Converged in   3 iterations
+    End Step:  16
+
+    Step:  17 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.960010210E-07       NORM_Fluid:  0.760821129E-05
+            IT:   1  NORM_Solid:  0.410909595E-04       NORM_Fluid:  0.174698779E-07
+            IT:   2  NORM_Solid:  0.140033574E-05       NORM_Fluid:  0.510803053E-09
+            IT:   3  NORM_Solid:  0.890896161E-07       NORM_Fluid:  0.498960911E-10
+            Converged in   3 iterations
+    End Step:  17
+
+    Step:  18 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.890896161E-07       NORM_Fluid:  0.736328723E-05
+            IT:   1  NORM_Solid:  0.382630828E-04       NORM_Fluid:  0.160236806E-07
+            IT:   2  NORM_Solid:  0.122022252E-05       NORM_Fluid:  0.448352991E-09
+            IT:   3  NORM_Solid:  0.869654649E-07       NORM_Fluid:  0.404186172E-10
+            Converged in   3 iterations
+    End Step:  18
+
+    Step:  19 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.869654649E-07       NORM_Fluid:  0.712091192E-05
+            IT:   1  NORM_Solid:  0.357410650E-04       NORM_Fluid:  0.147395660E-07
+            IT:   2  NORM_Solid:  0.106493930E-05       NORM_Fluid:  0.395244862E-09
+            IT:   3  NORM_Solid:  0.837618187E-07       NORM_Fluid:  0.329220008E-10
+            Converged in   3 iterations
+    End Step:  19
+
+    Step:  20 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.837618187E-07       NORM_Fluid:  0.688369388E-05
+            IT:   1  NORM_Solid:  0.334812074E-04       NORM_Fluid:  0.135964092E-07
+            IT:   2  NORM_Solid:  0.930967134E-06       NORM_Fluid:  0.349837736E-09
+            Converged in   2 iterations
+    End Step:  20
+
+    Step:  21 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.930967134E-06       NORM_Fluid:  0.665281122E-05
+            IT:   1  NORM_Solid:  0.313776419E-04       NORM_Fluid:  0.125507193E-07
+            IT:   2  NORM_Solid:  0.783542026E-06       NORM_Fluid:  0.291767621E-09
+            Converged in   2 iterations
+    End Step:  21
+
+    Step:  22 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.783542026E-06       NORM_Fluid:  0.642997828E-05
+            IT:   1  NORM_Solid:  0.295013092E-04       NORM_Fluid:  0.116266004E-07
+            IT:   2  NORM_Solid:  0.670769978E-06       NORM_Fluid:  0.250246687E-09
+            Converged in   2 iterations
+    End Step:  22
+
+    Step:  23 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.670769978E-06       NORM_Fluid:  0.621571437E-05
+            IT:   1  NORM_Solid:  0.278172347E-04       NORM_Fluid:  0.108037882E-07
+            IT:   2  NORM_Solid:  0.591394997E-06       NORM_Fluid:  0.219147632E-09
+            Converged in   2 iterations
+    End Step:  23
+
+    Step:  24 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.591394997E-06       NORM_Fluid:  0.601023593E-05
+            IT:   1  NORM_Solid:  0.262953302E-04       NORM_Fluid:  0.100662980E-07
+            IT:   2  NORM_Solid:  0.541647992E-06       NORM_Fluid:  0.194719940E-09
+            Converged in   2 iterations
+    End Step:  24
+
+    Step:  25 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.541647992E-06       NORM_Fluid:  0.581354462E-05
+            IT:   1  NORM_Solid:  0.249118678E-04       NORM_Fluid:  0.940179273E-08
+            IT:   2  NORM_Solid:  0.511705156E-06       NORM_Fluid:  0.174741558E-09
+            Converged in   2 iterations
+    End Step:  25
+
+    Step:  26 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.511705156E-06       NORM_Fluid:  0.562550030E-05
+            IT:   1  NORM_Solid:  0.236481176E-04       NORM_Fluid:  0.880049435E-08
+            IT:   2  NORM_Solid:  0.482239545E-06       NORM_Fluid:  0.157894076E-09
+            Converged in   2 iterations
+    End Step:  26
+
+    Step:  27 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.482239545E-06       NORM_Fluid:  0.544587022E-05
+            IT:   1  NORM_Solid:  0.224890470E-04       NORM_Fluid:  0.825444787E-08
+            IT:   2  NORM_Solid:  0.453644701E-06       NORM_Fluid:  0.143376746E-09
+            Converged in   2 iterations
+    End Step:  27
+
+    Step:  28 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.453644701E-06       NORM_Fluid:  0.527436298E-05
+            IT:   1  NORM_Solid:  0.214223402E-04       NORM_Fluid:  0.775703975E-08
+            IT:   2  NORM_Solid:  0.426151723E-06       NORM_Fluid:  0.130682452E-09
+            Converged in   2 iterations
+    End Step:  28
+
+    Step:  29 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.426151723E-06       NORM_Fluid:  0.511065214E-05
+            IT:   1  NORM_Solid:  0.204377121E-04       NORM_Fluid:  0.730268024E-08
+            IT:   2  NORM_Solid:  0.399894447E-06       NORM_Fluid:  0.119471866E-09
+            Converged in   2 iterations
+    End Step:  29
+
+    Step:  30 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.399894447E-06       NORM_Fluid:  0.495439279E-05
+            IT:   1  NORM_Solid:  0.195264361E-04       NORM_Fluid:  0.688658754E-08
+            IT:   2  NORM_Solid:  0.374943178E-06       NORM_Fluid:  0.109503866E-09
+            Converged in   2 iterations
+    End Step:  30
+
+    Step:  31 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.374943178E-06       NORM_Fluid:  0.480523303E-05
+            IT:   1  NORM_Solid:  0.186810159E-04       NORM_Fluid:  0.650463493E-08
+            IT:   2  NORM_Solid:  0.351324683E-06       NORM_Fluid:  0.100597159E-09
+            Converged in   2 iterations
+    End Step:  31
+
+    Step:  32 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.351324683E-06       NORM_Fluid:  0.466282200E-05
+            IT:   1  NORM_Solid:  0.178949500E-04       NORM_Fluid:  0.615323776E-08
+            IT:   2  NORM_Solid:  0.329035321E-06       NORM_Fluid:  0.926089206E-10
+            Converged in   2 iterations
+    End Step:  32
+
+    Step:  33 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.329035321E-06       NORM_Fluid:  0.452681536E-05
+            IT:   1  NORM_Solid:  0.171625587E-04       NORM_Fluid:  0.582926645E-08
+            IT:   2  NORM_Solid:  0.308050234E-06       NORM_Fluid:  0.854226164E-10
+            Converged in   2 iterations
+    End Step:  33
+
+    Step:  34 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.308050234E-06       NORM_Fluid:  0.439687898E-05
+            IT:   1  NORM_Solid:  0.164788511E-04       NORM_Fluid:  0.552997755E-08
+            IT:   2  NORM_Solid:  0.288329986E-06       NORM_Fluid:  0.789408071E-10
+            Converged in   2 iterations
+    End Step:  34
+
+    Step:  35 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.288329986E-06       NORM_Fluid:  0.427269128E-05
+            IT:   1  NORM_Solid:  0.158394212E-04       NORM_Fluid:  0.525295772E-08
+            IT:   2  NORM_Solid:  0.269825459E-06       NORM_Fluid:  0.730806623E-10
+            Converged in   2 iterations
+    End Step:  35
+
+    Step:  36 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.269825459E-06       NORM_Fluid:  0.415394470E-05
+            IT:   1  NORM_Solid:  0.152403633E-04       NORM_Fluid:  0.499607739E-08
+            IT:   2  NORM_Solid:  0.252481468E-06       NORM_Fluid:  0.677709941E-10
+            Converged in   2 iterations
+    End Step:  36
+
+    Step:  37 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.252481468E-06       NORM_Fluid:  0.404646145E-05
+            IT:   1  NORM_Solid:  0.146782038E-04       NORM_Fluid:  0.475745207E-08
+            IT:   2  NORM_Solid:  0.236239431E-06       NORM_Fluid:  0.629501679E-10
+            Converged in   2 iterations
+    End Step:  37
+
+    Step:  38 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.236239431E-06       NORM_Fluid:  0.399324720E-05
+            IT:   1  NORM_Solid:  0.141498430E-04       NORM_Fluid:  0.453540973E-08
+            IT:   2  NORM_Solid:  0.221039330E-06       NORM_Fluid:  0.585645399E-10
+            Converged in   2 iterations
+    End Step:  38
+
+    Step:  39 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.221039330E-06       NORM_Fluid:  0.393976186E-05
+            IT:   1  NORM_Solid:  0.136525076E-04       NORM_Fluid:  0.432846306E-08
+            IT:   2  NORM_Solid:  0.206821140E-06       NORM_Fluid:  0.545672441E-10
+            Converged in   2 iterations
+    End Step:  39
+
+    Step:  40 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.206821140E-06       NORM_Fluid:  0.388619565E-05
+            IT:   1  NORM_Solid:  0.131837090E-04       NORM_Fluid:  0.413528586E-08
+            IT:   2  NORM_Solid:  0.193525845E-06       NORM_Fluid:  0.509172084E-10
+            Converged in   2 iterations
+    End Step:  40
+
+    Step:  41 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.193525845E-06       NORM_Fluid:  0.383270979E-05
+            IT:   1  NORM_Solid:  0.127412088E-04       NORM_Fluid:  0.395469285E-08
+            IT:   2  NORM_Solid:  0.181096151E-06       NORM_Fluid:  0.475783461E-10
+            Converged in   2 iterations
+    End Step:  41
+
+    Step:  42 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.181096151E-06       NORM_Fluid:  0.377944055E-05
+            IT:   1  NORM_Solid:  0.123229890E-04       NORM_Fluid:  0.378562231E-08
+            IT:   2  NORM_Solid:  0.169476969E-06       NORM_Fluid:  0.445188754E-10
+            Converged in   2 iterations
+    End Step:  42
+
+    Step:  43 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.169476969E-06       NORM_Fluid:  0.372650273E-05
+            IT:   1  NORM_Solid:  0.119272256E-04       NORM_Fluid:  0.362712112E-08
+            IT:   2  NORM_Solid:  0.158615718E-06       NORM_Fluid:  0.417107460E-10
+            Converged in   2 iterations
+    End Step:  43
+
+    Step:  44 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.158615718E-06       NORM_Fluid:  0.367399265E-05
+            IT:   1  NORM_Solid:  0.115522668E-04       NORM_Fluid:  0.347833184E-08
+            IT:   2  NORM_Solid:  0.148462506E-06       NORM_Fluid:  0.391291494E-10
+            Converged in   2 iterations
+    End Step:  44
+
+    Step:  45 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.148462506E-06       NORM_Fluid:  0.362199071E-05
+            IT:   1  NORM_Solid:  0.111966134E-04       NORM_Fluid:  0.333848155E-08
+            IT:   2  NORM_Solid:  0.138970204E-06       NORM_Fluid:  0.367520998E-10
+            Converged in   2 iterations
+    End Step:  45
+
+    Step:  46 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.138970204E-06       NORM_Fluid:  0.357056364E-05
+            IT:   1  NORM_Solid:  0.108589020E-04       NORM_Fluid:  0.320687215E-08
+            IT:   2  NORM_Solid:  0.130094462E-06       NORM_Fluid:  0.345600755E-10
+            Converged in   2 iterations
+    End Step:  46
+
+    Step:  47 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.130094462E-06       NORM_Fluid:  0.351976633E-05
+            IT:   1  NORM_Solid:  0.105378904E-04       NORM_Fluid:  0.308287190E-08
+            IT:   2  NORM_Solid:  0.122027859E-06       NORM_Fluid:  0.325357091E-10
+            Converged in   2 iterations
+    End Step:  47
+
+    Step:  48 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.122027859E-06       NORM_Fluid:  0.346964350E-05
+            IT:   1  NORM_Solid:  0.102324446E-04       NORM_Fluid:  0.296590805E-08
+            IT:   2  NORM_Solid:  0.118710922E-06       NORM_Fluid:  0.306635205E-10
+            Converged in   2 iterations
+    End Step:  48
+
+    Step:  49 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.118710922E-06       NORM_Fluid:  0.342023109E-05
+            IT:   1  NORM_Solid:  0.994152767E-05       NORM_Fluid:  0.285546044E-08
+            IT:   2  NORM_Solid:  0.115383652E-06       NORM_Fluid:  0.289296864E-10
+            Converged in   2 iterations
+    End Step:  49
+
+    Step:  50 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.115383652E-06       NORM_Fluid:  0.337155751E-05
+            IT:   1  NORM_Solid:  0.966418956E-05       NORM_Fluid:  0.275105581E-08
+            IT:   2  NORM_Solid:  0.112062915E-06       NORM_Fluid:  0.273218412E-10
+            Converged in   2 iterations
+    End Step:  50
+
+    Step:  51 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.112062915E-06       NORM_Fluid:  0.332364465E-05
+            IT:   1  NORM_Solid:  0.939955867E-05       NORM_Fluid:  0.265226287E-08
+            IT:   2  NORM_Solid:  0.108762848E-06       NORM_Fluid:  0.258289035E-10
+            Converged in   2 iterations
+    End Step:  51
+
+    Step:  52 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.108762848E-06       NORM_Fluid:  0.327650881E-05
+            IT:   1  NORM_Solid:  0.914683393E-05       NORM_Fluid:  0.255868794E-08
+            IT:   2  NORM_Solid:  0.105495229E-06       NORM_Fluid:  0.244409256E-10
+            Converged in   2 iterations
+    End Step:  52
+
+    Step:  53 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.105495229E-06       NORM_Fluid:  0.323016148E-05
+            IT:   1  NORM_Solid:  0.890527801E-05       NORM_Fluid:  0.246997112E-08
+            IT:   2  NORM_Solid:  0.102269803E-06       NORM_Fluid:  0.231489620E-10
+            Converged in   2 iterations
+    End Step:  53
+
+    Step:  54 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.102269803E-06       NORM_Fluid:  0.318461003E-05
+            IT:   1  NORM_Solid:  0.867421122E-05       NORM_Fluid:  0.238578285E-08
+            IT:   2  NORM_Solid:  0.990945661E-07       NORM_Fluid:  0.219449554E-10
+            Converged in   2 iterations
+    End Step:  54
+
+    Step:  55 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.990945661E-07       NORM_Fluid:  0.313985829E-05
+            IT:   1  NORM_Solid:  0.845300610E-05       NORM_Fluid:  0.230582097E-08
+            IT:   2  NORM_Solid:  0.959760022E-07       NORM_Fluid:  0.208216376E-10
+            Converged in   2 iterations
+    End Step:  55
+
+    Step:  56 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.959760022E-07       NORM_Fluid:  0.309590706E-05
+            IT:   1  NORM_Solid:  0.824108265E-05       NORM_Fluid:  0.222980798E-08
+            IT:   2  NORM_Solid:  0.929192999E-07       NORM_Fluid:  0.197724407E-10
+            Converged in   2 iterations
+    End Step:  56
+
+    Step:  57 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.929192999E-07       NORM_Fluid:  0.305275457E-05
+            IT:   1  NORM_Solid:  0.803790395E-05       NORM_Fluid:  0.215748872E-08
+            IT:   2  NORM_Solid:  0.899285339E-07       NORM_Fluid:  0.187914214E-10
+            Converged in   2 iterations
+    End Step:  57
+
+    Step:  58 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.899285339E-07       NORM_Fluid:  0.301039685E-05
+            IT:   1  NORM_Solid:  0.784297239E-05       NORM_Fluid:  0.208862823E-08
+            IT:   2  NORM_Solid:  0.870068237E-07       NORM_Fluid:  0.178731927E-10
+            Converged in   2 iterations
+    End Step:  58
+
+    Step:  59 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.870068237E-07       NORM_Fluid:  0.296882808E-05
+            IT:   1  NORM_Solid:  0.765582616E-05       NORM_Fluid:  0.202300989E-08
+            IT:   2  NORM_Solid:  0.841564726E-07       NORM_Fluid:  0.170128661E-10
+            Converged in   2 iterations
+    End Step:  59
+
+    Step:  60 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.841564726E-07       NORM_Fluid:  0.292804087E-05
+            IT:   1  NORM_Solid:  0.747603618E-05       NORM_Fluid:  0.196043373E-08
+            IT:   2  NORM_Solid:  0.813790862E-07       NORM_Fluid:  0.162059977E-10
+            Converged in   2 iterations
+    End Step:  60
+
+    Step:  61 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.813790862E-07       NORM_Fluid:  0.288802652E-05
+            IT:   1  NORM_Solid:  0.730320331E-05       NORM_Fluid:  0.190071489E-08
+            IT:   2  NORM_Solid:  0.786756768E-07       NORM_Fluid:  0.154485434E-10
+            Converged in   2 iterations
+    End Step:  61
+
+    Step:  62 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.786756768E-07       NORM_Fluid:  0.284877524E-05
+            IT:   1  NORM_Solid:  0.713695582E-05       NORM_Fluid:  0.184368235E-08
+            IT:   2  NORM_Solid:  0.760467528E-07       NORM_Fluid:  0.147368167E-10
+            Converged in   2 iterations
+    End Step:  62
+
+    Step:  63 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.760467528E-07       NORM_Fluid:  0.281027633E-05
+            IT:   1  NORM_Solid:  0.697694716E-05       NORM_Fluid:  0.178917762E-08
+            IT:   2  NORM_Solid:  0.734923964E-07       NORM_Fluid:  0.140674539E-10
+            Converged in   2 iterations
+    End Step:  63
+
+    Step:  64 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.734923964E-07       NORM_Fluid:  0.277251836E-05
+            IT:   1  NORM_Solid:  0.682285386E-05       NORM_Fluid:  0.173705373E-08
+            IT:   2  NORM_Solid:  0.710123314E-07       NORM_Fluid:  0.134373812E-10
+            Converged in   2 iterations
+    End Step:  64
+
+    Step:  65 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.710123314E-07       NORM_Fluid:  0.273548931E-05
+            IT:   1  NORM_Solid:  0.673322621E-05       NORM_Fluid:  0.168717421E-08
+            IT:   2  NORM_Solid:  0.686059811E-07       NORM_Fluid:  0.128437864E-10
+            Converged in   2 iterations
+    End Step:  65
+
+    Step:  66 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.686059811E-07       NORM_Fluid:  0.269917668E-05
+            IT:   1  NORM_Solid:  0.664554607E-05       NORM_Fluid:  0.163941218E-08
+            IT:   2  NORM_Solid:  0.662725185E-07       NORM_Fluid:  0.122840932E-10
+            Converged in   2 iterations
+    End Step:  66
+
+    Step:  67 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.662725185E-07       NORM_Fluid:  0.266356764E-05
+            IT:   1  NORM_Solid:  0.655742738E-05       NORM_Fluid:  0.159364962E-08
+            IT:   2  NORM_Solid:  0.640109104E-07       NORM_Fluid:  0.117559393E-10
+            Converged in   2 iterations
+    End Step:  67
+
+    Step:  68 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.640109104E-07       NORM_Fluid:  0.262864907E-05
+            IT:   1  NORM_Solid:  0.646902554E-05       NORM_Fluid:  0.154977660E-08
+            IT:   2  NORM_Solid:  0.618199543E-07       NORM_Fluid:  0.112571551E-10
+            Converged in   2 iterations
+    End Step:  68
+
+    Step:  69 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.618199543E-07       NORM_Fluid:  0.259440768E-05
+            IT:   1  NORM_Solid:  0.638048222E-05       NORM_Fluid:  0.150769060E-08
+            IT:   2  NORM_Solid:  0.596983114E-07       NORM_Fluid:  0.107857469E-10
+            Converged in   2 iterations
+    End Step:  69
+
+    Step:  70 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.596983114E-07       NORM_Fluid:  0.256083005E-05
+            IT:   1  NORM_Solid:  0.629192643E-05       NORM_Fluid:  0.146729597E-08
+            IT:   2  NORM_Solid:  0.576445337E-07       NORM_Fluid:  0.103398798E-10
+            Converged in   2 iterations
+    End Step:  70
+
+    Step:  71 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.576445337E-07       NORM_Fluid:  0.252790272E-05
+            IT:   1  NORM_Solid:  0.620347542E-05       NORM_Fluid:  0.142850337E-08
+            IT:   2  NORM_Solid:  0.556570889E-07       NORM_Fluid:  0.991786324E-11
+            Converged in   2 iterations
+    End Step:  71
+
+    Step:  72 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.556570889E-07       NORM_Fluid:  0.249561223E-05
+            IT:   1  NORM_Solid:  0.611523561E-05       NORM_Fluid:  0.139122926E-08
+            IT:   2  NORM_Solid:  0.537343802E-07       NORM_Fluid:  0.951813847E-11
+            Converged in   2 iterations
+    End Step:  72
+
+    Step:  73 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.537343802E-07       NORM_Fluid:  0.246394515E-05
+            IT:   1  NORM_Solid:  0.602730345E-05       NORM_Fluid:  0.135539547E-08
+            IT:   2  NORM_Solid:  0.518747645E-07       NORM_Fluid:  0.913926645E-11
+            Converged in   2 iterations
+    End Step:  73
+
+    Step:  74 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.518747645E-07       NORM_Fluid:  0.243288815E-05
+            IT:   1  NORM_Solid:  0.593976614E-05       NORM_Fluid:  0.132092879E-08
+            IT:   2  NORM_Solid:  0.500765669E-07       NORM_Fluid:  0.877991746E-11
+            Converged in   2 iterations
+    End Step:  74
+
+    Step:  75 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.500765669E-07       NORM_Fluid:  0.240242798E-05
+            IT:   1  NORM_Solid:  0.585270239E-05       NORM_Fluid:  0.128776060E-08
+            IT:   2  NORM_Solid:  0.483380939E-07       NORM_Fluid:  0.843886141E-11
+            Converged in   2 iterations
+    End Step:  75
+
+    Step:  76 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.483380939E-07       NORM_Fluid:  0.237255155E-05
+            IT:   1  NORM_Solid:  0.576618305E-05       NORM_Fluid:  0.125582653E-08
+            IT:   2  NORM_Solid:  0.466576443E-07       NORM_Fluid:  0.811495964E-11
+            Converged in   2 iterations
+    End Step:  76
+
+    Step:  77 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.466576443E-07       NORM_Fluid:  0.234324594E-05
+            IT:   1  NORM_Solid:  0.568027175E-05       NORM_Fluid:  0.122506614E-08
+            IT:   2  NORM_Solid:  0.450335180E-07       NORM_Fluid:  0.780715695E-11
+            Converged in   2 iterations
+    End Step:  77
+
+    Step:  78 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.450335180E-07       NORM_Fluid:  0.231449840E-05
+            IT:   1  NORM_Solid:  0.559502548E-05       NORM_Fluid:  0.119542263E-08
+            IT:   2  NORM_Solid:  0.434640244E-07       NORM_Fluid:  0.751447426E-11
+            Converged in   2 iterations
+    End Step:  78
+
+    Step:  79 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.434640244E-07       NORM_Fluid:  0.229513484E-05
+            IT:   1  NORM_Solid:  0.551049509E-05       NORM_Fluid:  0.116684262E-08
+            IT:   2  NORM_Solid:  0.419474881E-07       NORM_Fluid:  0.723600292E-11
+            Converged in   2 iterations
+    End Step:  79
+
+    Step:  80 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.419474881E-07       NORM_Fluid:  0.227970029E-05
+            IT:   1  NORM_Solid:  0.542672579E-05       NORM_Fluid:  0.113927584E-08
+            IT:   2  NORM_Solid:  0.404822553E-07       NORM_Fluid:  0.697089844E-11
+            Converged in   2 iterations
+    End Step:  80
+
+    Step:  81 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.404822553E-07       NORM_Fluid:  0.226427088E-05
+            IT:   1  NORM_Solid:  0.534375762E-05       NORM_Fluid:  0.111267499E-08
+            IT:   2  NORM_Solid:  0.390666971E-07       NORM_Fluid:  0.671837572E-11
+            Converged in   2 iterations
+    End Step:  81
+
+    Step:  82 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.390666971E-07       NORM_Fluid:  0.224885703E-05
+            IT:   1  NORM_Solid:  0.526162584E-05       NORM_Fluid:  0.108699548E-08
+            IT:   2  NORM_Solid:  0.376992141E-07       NORM_Fluid:  0.647770363E-11
+            Converged in   2 iterations
+    End Step:  82
+
+    Step:  83 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.376992141E-07       NORM_Fluid:  0.223346833E-05
+            IT:   1  NORM_Solid:  0.518036135E-05       NORM_Fluid:  0.106233834E-08
+            IT:   2  NORM_Solid:  0.363782388E-07       NORM_Fluid:  0.624820128E-11
+            Converged in   2 iterations
+    End Step:  83
+
+    Step:  84 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.363782388E-07       NORM_Fluid:  0.221811363E-05
+            IT:   1  NORM_Solid:  0.509999101E-05       NORM_Fluid:  0.104325908E-08
+            IT:   2  NORM_Solid:  0.351022381E-07       NORM_Fluid:  0.602923404E-11
+            Converged in   2 iterations
+    End Step:  84
+
+    Step:  85 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.351022381E-07       NORM_Fluid:  0.220280102E-05
+            IT:   1  NORM_Solid:  0.502053801E-05       NORM_Fluid:  0.102446350E-08
+            IT:   2  NORM_Solid:  0.338697150E-07       NORM_Fluid:  0.582020968E-11
+            Converged in   2 iterations
+    End Step:  85
+
+    Step:  86 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.338697150E-07       NORM_Fluid:  0.218753795E-05
+            IT:   1  NORM_Solid:  0.494202215E-05       NORM_Fluid:  0.100595405E-08
+            IT:   2  NORM_Solid:  0.332359188E-07       NORM_Fluid:  0.567055716E-11
+            Converged in   2 iterations
+    End Step:  86
+
+    Step:  87 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.332359188E-07       NORM_Fluid:  0.217233126E-05
+            IT:   1  NORM_Solid:  0.486446013E-05       NORM_Fluid:  0.987732459E-09
+            IT:   2  NORM_Solid:  0.327161585E-07       NORM_Fluid:  0.552950356E-11
+            Converged in   2 iterations
+    End Step:  87
+
+    Step:  88 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.327161585E-07       NORM_Fluid:  0.215718719E-05
+            IT:   1  NORM_Solid:  0.478786581E-05       NORM_Fluid:  0.969799791E-09
+            IT:   2  NORM_Solid:  0.321950247E-07       NORM_Fluid:  0.539275266E-11
+            Converged in   2 iterations
+    End Step:  88
+
+    Step:  89 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.321950247E-07       NORM_Fluid:  0.214211147E-05
+            IT:   1  NORM_Solid:  0.471225046E-05       NORM_Fluid:  0.952156525E-09
+            IT:   2  NORM_Solid:  0.316734087E-07       NORM_Fluid:  0.526016433E-11
+            Converged in   2 iterations
+    End Step:  89
+
+    Step:  90 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.316734087E-07       NORM_Fluid:  0.212710931E-05
+            IT:   1  NORM_Solid:  0.463762298E-05       NORM_Fluid:  0.934802601E-09
+            IT:   2  NORM_Solid:  0.311521200E-07       NORM_Fluid:  0.513160174E-11
+            Converged in   2 iterations
+    End Step:  90
+
+    Step:  91 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.311521200E-07       NORM_Fluid:  0.211218548E-05
+            IT:   1  NORM_Solid:  0.456399007E-05       NORM_Fluid:  0.917737475E-09
+            IT:   2  NORM_Solid:  0.306318935E-07       NORM_Fluid:  0.500693182E-11
+            Converged in   2 iterations
+    End Step:  91
+
+    Step:  92 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.306318935E-07       NORM_Fluid:  0.209734431E-05
+            IT:   1  NORM_Solid:  0.449135648E-05       NORM_Fluid:  0.900960166E-09
+            IT:   2  NORM_Solid:  0.301133948E-07       NORM_Fluid:  0.488602528E-11
+            Converged in   2 iterations
+    End Step:  92
+
+    Step:  93 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.301133948E-07       NORM_Fluid:  0.208258974E-05
+            IT:   1  NORM_Solid:  0.441972515E-05       NORM_Fluid:  0.884469304E-09
+            IT:   2  NORM_Solid:  0.295972256E-07       NORM_Fluid:  0.476875649E-11
+            Converged in   2 iterations
+    End Step:  93
+
+    Step:  94 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.295972256E-07       NORM_Fluid:  0.206792533E-05
+            IT:   1  NORM_Solid:  0.434909736E-05       NORM_Fluid:  0.868263166E-09
+            IT:   2  NORM_Solid:  0.290839293E-07       NORM_Fluid:  0.465500380E-11
+            Converged in   2 iterations
+    End Step:  94
+
+    Step:  95 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.290839293E-07       NORM_Fluid:  0.205335430E-05
+            IT:   1  NORM_Solid:  0.427947292E-05       NORM_Fluid:  0.852339718E-09
+            IT:   2  NORM_Solid:  0.285739947E-07       NORM_Fluid:  0.454464912E-11
+            Converged in   2 iterations
+    End Step:  95
+
+    Step:  96 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.285739947E-07       NORM_Fluid:  0.203887956E-05
+            IT:   1  NORM_Solid:  0.422119125E-05       NORM_Fluid:  0.836696646E-09
+            IT:   2  NORM_Solid:  0.280678613E-07       NORM_Fluid:  0.443757817E-11
+            Converged in   2 iterations
+    End Step:  96
+
+    Step:  97 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.280678613E-07       NORM_Fluid:  0.202450371E-05
+            IT:   1  NORM_Solid:  0.416746356E-05       NORM_Fluid:  0.821331388E-09
+            IT:   2  NORM_Solid:  0.275659223E-07       NORM_Fluid:  0.433368049E-11
+            Converged in   2 iterations
+    End Step:  97
+
+    Step:  98 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.275659223E-07       NORM_Fluid:  0.201022907E-05
+            IT:   1  NORM_Solid:  0.411485573E-05       NORM_Fluid:  0.806241164E-09
+            IT:   2  NORM_Solid:  0.270685291E-07       NORM_Fluid:  0.423284896E-11
+            Converged in   2 iterations
+    End Step:  98
+
+    Step:  99 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.270685291E-07       NORM_Fluid:  0.199605772E-05
+            IT:   1  NORM_Solid:  0.406333594E-05       NORM_Fluid:  0.791423001E-09
+            IT:   2  NORM_Solid:  0.265759939E-07       NORM_Fluid:  0.413498052E-11
+            Converged in   2 iterations
+    End Step:  99
+
+    Step: 100 (LC:   2)
+
+        Cut Back:   0
+            SubStep:   0 (Alpha:  1.0000)
+            IT:   0  NORM_Solid:  0.265759939E-07       NORM_Fluid:  0.198199150E-05
+            IT:   1  NORM_Solid:  0.401287352E-05       NORM_Fluid:  0.776873757E-09
+            IT:   2  NORM_Solid:  0.260885936E-07       NORM_Fluid:  0.403997512E-11
+            Converged in   2 iterations
+    End Step: 100
+
+End Load Case:   2

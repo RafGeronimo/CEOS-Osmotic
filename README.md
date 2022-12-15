@@ -1,2 +1,2 @@
-# CEOS-Osmotic
- CEOS with osmotic pressure
+# CEOS Osmotic
+ FEM Code of Biomechanics
